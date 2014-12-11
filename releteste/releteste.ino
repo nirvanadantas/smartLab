@@ -16,7 +16,7 @@ void loop() {
     if (c=='1')  digitalWrite(pinorele,  HIGH);
   
     if(c=='0')  digitalWrite(pinorele,  LOW);
-    Serial.println(pinorele);
+    Serial.println(c);
   }
   
 
